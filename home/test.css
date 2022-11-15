@@ -1,0 +1,39 @@
+body {
+background-color: darkslategrey;
+}
+
+.pageclip-form__submit::after {
+  border-color: rgba(0, 255, 0, 0.8);
+  border-left-color: blue;
+}
+
+header {
+	color: green;
+	border: 10px dashed blue;
+	border-width: 10%;
+	margin: 5%
+}
+
+div#loginForm>form#login>*>.loginInput,div#loginForm>form#login>.loginInput {
+margin:1%;
+}
+
+div#loginForm {
+text-align: center;
+font-family: Verdana;
+}
+
+#loginForm>#login {
+text-align: center;
+}
+
+header>#headerName {
+margin: 20px;
+text-align: center;
+}
+
+div#loginForm>#login>button {
+padding:15px;
+font-size:15px;
+}
+
